@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descargador de Videos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Descargador de Videos y Audios de YOUTUBE</h1>
+
+    <label for="videoUrl">Ingrese la URL del Video:</label>
+    <input type="text" id="videoUrl" placeholder="URL del video">
+
+    <label for="quality">Seleccione la Calidad:</label>
+    <select id="quality">
+      <option value="720p">720p</option>
+      <option value="1080p">1080p</option>
+      <option value="audio">Solo Audio</option>
+    </select>
+
+    <button onclick="startDownload()">Descargar</button>
+
+    <div id="status"></div>
+  </div>
+
+  <button onclick="toggleNightMode()" style="position: fixed; top: 10px; right: 10px;">Modo oscuro</button>
+
+  <div style="text-align: center; margin-top: 20px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="200" style="border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+  </div>
+
+
+  <div style="text-align: center; margin-top: 20px;">
+    <a href="https://paypal.me/aladou22" target="_blank">
+      <img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_111x69.jpg" alt="PayPal Logo" width="111" height="69" style="border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+    </a>
+    <p>Considera hacer una donación para apoyar nuestro trabajo.</p>
+  </div>
+
+  <footer style="text-align: center; margin-top: 40px; padding: 20px; background-color: #333; color: #fff;">
+    <p>&copy; 2025 Descargador de Videos. Todos los derechos reservados.</p>
+    <p>Para consultas legales, por favor contáctenos a través de nuestro correo electrónico:</p>
+    <p>
+      <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" alt="Gmail Logo" width="20" height="20" style="vertical-align: middle;">
+      <a href="mailto:alanplay4@gmail.com" style="color: #fff;">alanplay4@gmail.com</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="style.css"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@ffmpeg/ffmpeg@0.8.7/ffmpeg.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@ffmpeg/core@0.8.7/ffmpeg-core.min.js"></script>
+  <script>py.py</script>
+  <script>a.bash</script>
+  <script>javascrip.js</script>
+  <script>
+    function toggleNightMode() {
+      document.body.classList.toggle('night-mode');
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+
+    input[type="text"],
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #28a745;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #218838;
+    }
+
+    button:active {
+      background-color: #1e7e34;
+    }
+
+    #status {
+      margin-top: 20px;
+      text-align: center;
+      color: #333;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+      color: #ddd;
+    }
+
+    .night-mode {
+      background-color: #121212;
+      color: #ffffff;
+    }
+
+    .night-mode .container {
+      background-color: #1e1e1e;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+
+    .night-mode button {
+      background-color: #333;
+      color: #fff;
+    }
+
+    .night-mode button:hover {
+      background-color: #444;
+    }
+
+    .night-mode footer {
+      background-color: #1e1e1e;
+    }
+
+    .night-mode a {
+      color: #bb86fc;
+    }
+
+    .night-mode a:hover {
+      color: #ff79c6;
+    }
+  </style>
+</body>
+<link rel="py.py">
+<link rel="a.bash">
+<link rel="javascrip.js">
+
+
+</html>
